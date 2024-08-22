@@ -1,0 +1,181 @@
+/* GERAIS */
+
+
+:root {  
+    --color-black: #101010;
+    --color-white: #ffffff;
+    --color-offwhite: #a9cdd9;
+    --color-blue: #003a6f;
+    --color-darkblue: #00174b;
+    --color-darkblue-hover: #07183e;
+    --color-white-hover: #808BA5;
+    --color-lightgrey: #F8F8F8;
+    --color-grey: #c9c9c9;
+    --color-darkgrey: #222222;
+    --color-rnbw-red: #FF3472;
+    --color-rnbw-orange: #FFB755;
+    --color-rnbw-yellow: #FFF855;
+    --color-rnbw-green: #A3FF55;
+    --color-rnbw-turquoise: #55FFD1;
+    --color-rnbw-blue: #55D8FF;
+    --color-rnbw-purple: #9655FF;
+    --color-rnbw-pink: #F955FF;
+}
+
+@media (max-width: 991.98px) { /* Breakpoint lg */
+   h1 {
+        font-family: "Louize", Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        font-weight: 500;
+        background: linear-gradient(45deg, var(--color-rnbw-purple), var(--color-rnbw-blue), var(--color-rnbw-turquoise), var(--color-rnbw-green), var(--color-rnbw-yellow), var(--color-rnbw-orange), var(--color-rnbw-pink));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+    h2 {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: var(--color-white);
+        text-transform: uppercase;
+        margin: 10px;
+    }
+    h3 {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        color: var(--color-white);
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0;
+    }
+    h4 {
+        font-family: "PlayfairDisplay", Georgia, 'Times New Roman', Times, serif;
+        color: var(--color-white);
+        font-size: 1rem;
+    }
+    h5{
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.75rem;
+        color: var(--color-white);
+    }
+    p {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.75rem;
+        color: var(--color-white);
+        margin: 4px;
+    }
+}
+  @media (min-width: 992px) {
+    h1 {
+        font-family: "Louize", Georgia, 'Times New Roman', Times, serif;
+        font-size: 4rem;
+        font-weight: 500;
+        background: linear-gradient(45deg, var(--color-rnbw-purple), var(--color-rnbw-blue), var(--color-rnbw-turquoise), var(--color-rnbw-green), var(--color-rnbw-yellow), var(--color-rnbw-orange), var(--color-rnbw-pink));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+    h2 {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        color: var(--color-white);
+        text-transform: uppercase;
+        margin: 10px;
+    }
+    h3 {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: var(--color-white);
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0;
+    }
+    h4 {
+        font-family: "PlayfairDisplay", Georgia, 'Times New Roman', Times, serif;
+        color: var(--color-white);
+        font-size: 1.5rem;
+    }
+    h5{
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        color: var(--color-white);
+    }
+    p {
+        font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        color: var(--color-white);
+        margin: 4px;
+    }
+}
+
+/* NAVBAR */
+
+.nav-custom {
+    font-size: 1.5rem;
+    font-family: "Louize", Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background-color: var(--color-darkblue);
+}
+
+.navbar .input-group {
+    align-items: center;
+}
+
+/* HEADER */
+
+.header-custom {
+    background-color: var( --color-blue);
+}
+
+/* SECTION 01 */
+
+.section1-custom {
+    background-color: var(--color-blue);
+    background-image: url(/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/bg.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fixed-height {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* SECTION 02 */
+
+.section2-custom  {
+    background-color: var(--color-blue);
+}
+
+.mes {
+    background-color: var(--color-darkblue);
+    padding: 20px 20px;
+    margin: 20px 130px;
+    border-radius: 4px;
+}
+
+.badges {
+    background-color: var(--color-rnbw-red);
+}
+
+.shows {
+    width: 20rem;
+    background-color: var(--color-darkblue);   
+}
+
+/* SECTION 03 */
+
+.section3-custom  {
+    background-color: var(--color-blue);
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--color-darkblue);
+}
+
+a {
+    text-decoration: none;
+}
+

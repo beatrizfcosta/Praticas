@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title> DESENVOLVIMENTO DE HOMEPAGE DE WEBSITE COM RECURSO À BIBLIOTECA BOOTSTRAP </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exercício de desenvolvimento de Homepage de website com recurso a bibliotecta bootstrap">
+    <meta name="author" content="Beatriz">
+    <meta name="keywords" content="Coldplay, Homepage, Discografia, Shows, Bootstarp, CSS, HTML"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a6fb41cce0.js" crossorigin="anonymous"></script>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"crossorigin="anonymous">  
+    <link rel="stylesheet" type="text/css" href="homepage2.css"> 
+    <style>
+      @font-face {
+        font-family: "Louize";
+        src: url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.eot");
+        src: url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/df180f85d58e18017bf4cfa28468be6b.svg#Louize")format("svg");
+        }
+      @font-face {
+        font-family: "PlayfairDisplay";
+        src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Elite&family=VT323&display=swap');
+      }
+      .selector-for-some-widget {
+         box-sizing: content-box;
+      }
+   </style> 
+   
+  </head> 
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src="Imagens/Coldplay_logo.png" alt="COLDPLAY" height="30" class="d-inline-block align-center">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Store</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">News</a>
+            </li>
+
+            <li class="nav-item mx-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Music
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Spotify</a></li>
+                <li><a class="dropdown-item" href="#">Apple music</a></li>        
+                <li><a class="dropdown-item" href="#">Youtube</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Tour</a>
+            </li>
+
+          </ul>
+
+          <form class="d-flex">
+            <div class="input-group">
+              <input class="form-control" type="search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+      
+
+    <header class="container-fluid py-5 text-center header-custom">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <h1>NEW ALBUM: MUSIC OF THE SPHERES</h1>
+          <h2>THE NEW ALBUM - LANDING OCTOBER 4</h2>
+          <p>
+            Welcome to the official Coldplay website. Formed in London in 1996, Coldplay has captivated global audiences with evocative melodies and heartfelt lyrics.
+            Fronted by lead vocalist and pianist Chris Martin, and featuring guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion, the band gained
+            widespread recognition with their debut album "Parachutes" in 2000, featuring the breakthrough single "Yellow." Known for an atmospheric sound that blends
+            alternative rock, pop, and electronic influences, subsequent albums like "A Rush of Blood to the Head" and "Viva la Vida or Death and All His Friends"
+            solidified Coldplay's status as one of the world's best-selling music acts. Renowned for vibrant energy and visual artistry, our live performances often
+            feature elaborate light shows and interactive elements. Throughout our career, we've received numerous awards and accolades, continuously evolving our
+            style while maintaining a core message of love, hope, and human connection. Explore our site to learn more about our music, tour dates, and latest news.
+          </p>
+        </div>
+      </div>
+    </header>
+
+      
+    <section class="text-center section1-custom py-4"> 
+    
+        <h3> Albuns </h3>
+
+        <div class="container">
+
+          <div class="row text-center">
+
+            <div class="col-lg-4 mt-4 mb-4">
+              <h4>Ghost Stories</h4>
+              <a href="https://open.spotify.com/album/2G4AUqfwxcV1UdQjm2ouYr?si=SJAMB2O6T2O2o26kn_ALEQ" target="_blank">
+                <img class="fixed-height" src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/Ghost_Stories.jpg" alt="Ghost Stories Album">
+              </a> 
+            </div>
+
+            <div class="col-lg-4 mt-4 mb-4">
+              <h4>A Head Full of Dreams</h4>
+              <a href="https://open.spotify.com/album/3cfAM8b8KqJRoIzt3zLKqw?si=zsjOeT7cREu-xNJRFd6dwg" target="_blank">
+                <img class="fixed-height" src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/A-Head-Full-of-Dreams.jpg" alt="A Head Full of Dreams Album">
+              </a> 
+            </div>
+
+            <div class="col-lg-4 mt-4 mb-4">
+              <h4>Parachutes</h4>
+              <a href="https://open.spotify.com/album/6ZG5lRT77aJ3btmArcykra?si=40fvGgYqRhaBVydOCDiGWA" target="_blank">
+                <img class="fixed-height" src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/Parachutes.jpg" alt="Parachutes Album">
+              </a> 
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-center section2-custom py-4">
+
+        <h3> Tour </h3>
+
+        <h4> Tickets </h4>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mes d-flex flex-column flex-md-row align-items-center">
+                <h5 class="mb-2 mb-md-0">Setembro, 2024</h5>
+                <span class="badge rounded-pill badges p-2 ms-4">sold out</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mes d-flex flex-column flex-md-row align-items-center">
+                <h5 class="mb-2 mb-md-0">Outubro, 2024</h5>
+                <span class="badge rounded-pill badges p-2 ms-4">sold out</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mes d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <h5 class="mb-2 mb-md-0">Novembro, 2024</h5>
+                <span class="badge rounded-pill badges p-2">available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center flex-wrap">
+          <div class="card shows p-0 text-start mx-3 my-3">
+            <img src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/show1.png" class="card-img-top" alt="show1">
+            <div class="card-body">
+              <h5 class="card-title">Porto</h5>
+              <p class="card-text">Coliseu Porto Ageas</p>
+              <a href="#" class="btn btn-primary">Buy Tickets</a>
+            </div>
+          </div>
+
+          <div class="card shows p-0 text-start mx-3 my-3">
+            <img src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/show2.png" class="card-img-top" alt="show1">
+            <div class="card-body">
+              <h5 class="card-title">Lisboa</h5>
+              <p class="card-text">Coliseu dos Recreios</p>
+              <a href="#" class="btn btn-primary">Buy Tickets</a>
+            </div>
+          </div>
+
+          <div class="card shows p-0 text-start mx-3 my-3">
+            <img src="/Users/beatrizcosta/Desktop/Caso_Pratico_Bootstrap/Imagens/show3.png" class="card-img-top" alt="show1">
+            <div class="card-body">
+              <h5 class="card-title">Coimbra</h5>
+              <p class="card-text">Estádio de Coimbra</p>
+              <a href="#" class="btn btn-primary">Buy Tickets</a>
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    
+  
+    <section class="text-center section3-custom py-4">
+
+        <h3> Contacts </h3>
+
+        <h4> Contact us for more </h4>
+       
+        <div class="container">
+
+          <div class="row m-4 text-light">
+            <div class="col-md-6">
+              <a class="d-flex text-decoration-none text-light">
+                <i class="bi bi-geo-alt-fill me-2"></i>
+                123 Baker Street, London, NW1 6XE, United Kingdom
+              </a>
+              <a class="d-flex text-decoration-none text-light">
+                <i class="bi bi-telephone-fill me-2"></i>
+                +44 20 7946 0958
+              </a>
+              <a class="d-flex text-decoration-none text-light" href="contact@coldplay.com">
+                <i class="bi bi-envelope-fill me-2"></i>
+                contact@coldplay.com
+              </a>
+            </div>
+            
+            <div class="col-md-6 text-start">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputMessage" class="form-label">Message</label>
+                  <input type="text-area" class="form-control" id="inputMessage">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    
+    <footer>
+
+      <div class="icones_footer text-light text-center py-4"> 
+
+        <a href="https://facebook.com" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://x.com" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>    
+        
+      </div>
+
+      <p class="text-center pb-4"> &copy; Beatriz Costa </p>
+     
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
